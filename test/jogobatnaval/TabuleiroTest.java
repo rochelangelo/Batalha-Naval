@@ -7,7 +7,6 @@ package jogobatnaval;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import static jogobatnaval.Tabuleiro.altura;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -38,6 +37,12 @@ public class TabuleiroTest {
     
     @Test
     public void testRetornaTabuleiroVazio() {
+        int[][] t = Tabuleiro.retornaTabuleiroVazio();
+        for (int i = 0; i < t.length; i++){
+            for (int j = 0; j < t.length; j++){
+                if()
+            }
+        }
     }
 
     @Test
